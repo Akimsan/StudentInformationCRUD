@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: cadetblue;   
+}
+body{
+    margin-top: 200px;
+    padding:45px;
+    font-family: "Roboto", sans-serif;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    margin: 60px auto;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+h3{ 
+    font-size: 18px;
+    color: cadetblue;
+    padding: 10px;
+    border-bottom:1px solid #afafaf;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table td{
+    border:  #afafaf;
+}
+
+table thead td{
+    padding: 5px;
+    background-color: lightslategray;
+    color: white;
+}
+
+table tbody td{
+    padding: 5px;
+}
+
+table tbody tr:nth-child(even){
+    background-color:rgb(212, 228, 228);
+}
+
+.edit,.delete ,.addbtn{
+    text-decoration: none;
+    color: white;
+    /* display: block; */
+    /* width: 47px; */
+    padding: 2px 10px 2px 10px;
+    text-align: center;
+    border-radius: 3px;
+    background-color:cadetblue;
+}
+.delete{
+    background-color: rgb(162, 17, 17);
+}
+
+p{  
+    margin-top: 10px;
+    text-align: right;
+    padding: 5px;
+}
+
+.addbtn{
+    background-color: rgb(50, 90, 92);
+}
+.form{
+    
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group{
+  
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 5px;
+}
+.form-group label,.form-group input{
+    display: block;
+    height: 35px;
+    border-color: cadetblue;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 10px 18px 10px 18px;
+    text-align: center;
+    border-radius: 3px;
+    background-color:cadetblue;
+    font-size: 5;
+}
+.alert{
+    display: block;
+    padding: 5px;
+    background-color: rgb(105, 231, 105);
+    border-radius: 8px;
+    height: 35px;
+    text-align: center;
+}
